@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+body {
+    background: black url(../imagens_2/tede_fundo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 630px;
+    background: url(../imagens_2/macbook.png) no-repeat top center;
+    background-size: cover;
+}
+
+section#redes{
+    text-align: center;
+}
+
+section#redes img {
+    position: relative;
+    top: 60px;
+    left: 0px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+section#redes img:hover {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transition: 1s;
+    transform: scale(1,1, 2);
+    width: 80px;
+    margin: 0px;
+}
