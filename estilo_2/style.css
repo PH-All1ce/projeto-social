@@ -33,6 +33,15 @@ section#telefone {
     background-size: cover;
 }
 
+#tela {
+    position: relative;
+    top: 164px;
+    left: 128px;
+    width: 542px;
+    height: 343px;
+    border-radius: 1px;
+}
+
 section#redes{
     text-align: center;
 }
@@ -48,11 +57,6 @@ section#redes img {
 }
 
 section#redes img:hover {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    transition: 1s;
-    transform: scale(1,1, 2);
-    width: 80px;
-    margin: 0px;
+    transition: 0.7s;
+    border: 2px solid white;
 }
